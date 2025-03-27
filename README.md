@@ -6,7 +6,7 @@ This project is designed to help you **understand recursion** — both for gener
 
 ---
 
-## Demo
+Demo
 
 ```text
 S#########################################
@@ -20,12 +20,12 @@ S#########################################
 #########################################
 
 ## Features
-	•	Recursive maze generation (backtracking)
-	•	Recursive maze solving (depth-first)
-	•	Live animated terminal output
-	•	ANSI color rendering
-	•	Final stats: maze size, steps taken, time to solve
-	•	Optional backtrack animation
+- Recursive maze generation (backtracking)
+- Recursive maze solving (depth-first)
+- Live animated terminal output
+- ANSI color rendering
+- Final stats: maze size, steps taken, time to solve
+- Optional backtrack animation
 
 ## Requiremenets
 Rust
@@ -38,17 +38,17 @@ const WIDTH: usize = 41;  // Must be odd
 const HEIGHT: usize = 21; // Must be odd
 
 ## What you will learn
-	•	How recursion works visually
-	•	How maze algorithms explore and backtrack
-	•	Terminal rendering with ANSI escape codes
-	•	Structuring a clean Rust project with enums, state, and timing
+- How recursion works visually
+- How maze algorithms explore and backtrack
+- Terminal rendering with ANSI escape codes
+- Structuring a clean Rust project with enums, state, and timing
 
 ## TODO / Ideas
-	•	Add CLI args to set maze size or speed
-	•	Export solved mazes to a file
-	•	Add maze seeding for reproducibility
-	•	Add animated backtracking
-	•	Add themes or colored trails
+- Add CLI args to set maze size or speed
+- Export solved mazes to a file
+- Add maze seeding for reproducibility
+- Add animated backtracking
+- Add themes or colored trails
 
 ## License
 MIT 
